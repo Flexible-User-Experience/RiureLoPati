@@ -72,6 +72,12 @@ body {
     margin-top: 28px;
 }
 
+.firsLeftBox {
+    margin: 0 20px 40px 40px;
+    float: left;
+    width: 350px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {

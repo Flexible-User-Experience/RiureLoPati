@@ -30,6 +30,16 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
               index++;
             }
           });
+        $scope.textPanelCollapsed = true;
+        $scope.changeTextLength = function() {
+            $scope.textPanelCollapsed = !$scope.textPanelCollapsed;
+            if ($scope.textPanelCollapsed) {
+
+            } else {
+                
+            }
+            console.log('hit', $scope.textPanelCollapsed);
+          };
       }]);
 
 riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
