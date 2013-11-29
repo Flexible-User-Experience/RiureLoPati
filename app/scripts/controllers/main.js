@@ -1,7 +1,6 @@
 'use strict';
 
-angular.module('riureLoPatiApp')
-  .controller('MainCtrl', function ($scope) {
+riureLoPatiApp.controller('MainCtrl', function($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

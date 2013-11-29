@@ -1,12 +1,13 @@
 'use strict';
 
-angular.module('riureLoPatiApp', [
+var riureLoPatiApp = angular.module('riureLoPatiApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ngRoute'
-])
-  .config(function ($routeProvider) {
+]);
+
+riureLoPatiApp.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',

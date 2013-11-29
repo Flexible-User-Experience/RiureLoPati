@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "code": "001-00A",
+        "title": "Page title 1",
+        "subtitle": "Page subtitle 1",
+        "metatile": "Metatitle page 1",
+        "metadescription": "Metadescription page 1",
+        "position": 1,
+        "active": 1
+    },
+    {
+        "id": 2,
+        "code": "001-00B",
+        "title": "Page title 2",
+        "subtitle": "Page subtitle 2",
+        "metatile": "Metatitle page 2",
+        "metadescription": "Metadescription page 2",
+        "position": 2,
+        "active": 1
+    }
+]
