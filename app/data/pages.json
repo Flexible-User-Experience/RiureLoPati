@@ -9,7 +9,7 @@
         "position": 1,
         "active": 1,
         "text": "<strong>Superioritat Vs Inferioritat</strong>: Un dels efectes més colpidors de l'acte de riure és el trastocament de les relacions jeràrquiques que provoca. Moltes cultures han establert períodes on les distincions de rang i estatus queden suspeses i l'humor té via lliure per atacar institucions fins aleshores intocables: les saturnals romanes, la festa dels folls medieval i els carnavals són exemples d’aquest momentani capgirament. El caràcter fugisser i fulgurant de la riallada fou intuït per Hobbes en la seva definició d'humor com a \"glòria sobtada\": <em>\"es pot concloure que l'humor no és sinó la glòria sobtada derivada d’una concepció sobtada d'eminència en nosaltres mateixos, en comparació amb la debilitat dels altres, o amb la nostra pròpia d’abans.\"</em>",
-        "media": [
+        "medias": [
             {
                 "id": 1,
                 "title": "Lluís Felip I convertint-se en una pera",
@@ -64,7 +64,7 @@
         "position": 2,
         "active": 1,
         "text": "",
-        "media": [
+        "medias": [
             {
                 "id": 0,
                 "title": "",

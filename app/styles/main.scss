@@ -78,6 +78,15 @@ body {
     width: 350px;
 }
 
+.leftBoxes {
+    margin: 0 20px 40px 20px;
+    float: left;
+    width: 350px;
+    h3 {
+        margin-top: 0;
+    }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
