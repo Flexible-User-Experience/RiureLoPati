@@ -7,7 +7,7 @@
   <div class="leftBoxes" ng-repeat="media in currentPage.medias">
     <h3>{{ media.title }}</h3>
     <h4>{{ media.author }}, {{ media.year }}</h4>
-    <p>{{ media.text }}</p>
+    <p ng-bind-html="media.text"></p>
     <img ng-src="images/{{ media.image }}" alt="" title=""/>
   </div>
 </div>
