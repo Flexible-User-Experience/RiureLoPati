@@ -1,10 +1,13 @@
+<div id="items" style="width:4000px;">
 <div class="firsLeftBox">
   <p ng-bind-html="textPanel"></p>
   <p><a class="btn btn-primary btn-xs" ng-click="changeTextLength()">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
 </div>
-<div class="leftBoxes" ng-repeat="media in currentPage.medias">
-  <h3>{{ media.title }}</h3>
-  <h4>{{ media.author }}</h4>
-  <h5>{{ media.year }}</h5>
-  <p>{{ media.image }}</p>
+
+  <div class="leftBoxes" ng-repeat="media in currentPage.medias">
+    <h3>{{ media.title }}</h3>
+    <h4>{{ media.author }}, {{ media.year }}</h4>
+    <p>{{ media.text }}</p>
+    <img ng-src="images/{{ media.image }}" alt="" title=""/>
+  </div>
 </div>

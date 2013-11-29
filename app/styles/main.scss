@@ -25,7 +25,6 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
     h1 {
         margin-left: 40px;
         margin-top: 0;
@@ -76,14 +75,28 @@ body {
     margin: 0 20px 40px 40px;
     float: left;
     width: 350px;
+    p {
+        white-space: normal;
+    }
+}
+
+#items {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 2000px;
 }
 
 .leftBoxes {
     margin: 0 20px 40px 20px;
     float: left;
     width: 350px;
+    white-space: normal;
+    display: inline-block;
     h3 {
         margin-top: 0;
+    }
+    img {
+        width: 100%;
     }
 }
 
