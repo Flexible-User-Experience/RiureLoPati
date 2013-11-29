@@ -107,6 +107,34 @@
                 "position": 7,
                 "active": 1,
                 "type": "image"
+            },
+            {
+                "id": 8,
+                "title": "Barbie Liberation Organization",
+                "author": "RTMark",
+                "year": 1993,
+                "text": "El grup RTMark comprà el 1993 centenars de nines Barbies i ninots G.I. Joe. Intercanviaren les gravacions internes de veu de les dues joguines i les retornaren als estants de les botigues. Les nenes es trobaren, doncs, amb nines Barbies que deien “foc a discreció” i els nens amb G.I. Joes que deien “vull anar de compres”. Aquesta acció contra els estereotips de gènere en els objectes produïts per la societat de consum és de clara inspiració situacionista. El hackeig d’objectes tecnològics esdevé un nou i potent canal per a la sàtira: és el naixement del hacktivisme.",
+                "image": "",
+                "youtube": "http://youtu.be/OVT4T7OR3iQ",
+                "vimeo": "",
+                "attachment": "",
+                "position": 8,
+                "active": 1,
+                "type": "youtube"
+            },
+            {
+                "id": 9,
+                "title": "The Yes Men i l’Organització  Mundial de Comerç",
+                "author": "The Yes Men",
+                "year": 1999,
+                "text": "Començant amb una simple web falsa que volia passar per la de l’Organització Mundial del Comerç, els Yes Men aconseguiren ser convidats com a conferenciants a prestigioses conferències i trobades de sectors neoliberals. Foren entrevistats per canals com la CNBC o la BBC, on expressaren sense embuts opinions com ara que calia electrocutar els treballadors poc productius. Aquesta brillant sàtira de les elits econòmiques i la complicitat amb què compten per part dels mitjans de comunicació situà la suplantació de personalitat com a tècnica humorística contemporània, en una tendència que després seguirien humoristes com Sacha Baron Cohen.",
+                "image": "",
+                "youtube": "http://youtu.be/sW35PKEVYMw",
+                "vimeo": "",
+                "attachment": "",
+                "position": 9,
+                "active": 1,
+                "type": "youtube"
             }
         ]
     },
