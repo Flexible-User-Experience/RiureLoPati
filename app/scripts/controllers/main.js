@@ -10,8 +10,8 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', 'Layout',
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });
-        //$scope.Layout = Layout;
         Layout.setTitle('Main page');
+        Layout.setDescription('Metadescription');
       }]);
 
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', 'Layout',
@@ -20,8 +20,8 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
             $scope.pages = data;
             $scope.currentPage = $scope.pages[$routeParams.pageId];
             Layout.setTitle($scope.currentPage.metatile);
+            Layout.setDescription($scope.currentPage.metadescription);
           });
-        $scope.Layout = Layout;
       }]);
 
 riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
