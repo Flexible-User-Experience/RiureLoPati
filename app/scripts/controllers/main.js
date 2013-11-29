@@ -14,8 +14,8 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', 'Layout',
         Layout.setDescription('Metadescription');
       }]);
 
-riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', 'Layout',
-    function($scope, $http, $routeParams, Layout) {
+riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', 'Layout',
+    function($scope, $http, $routeParams, $interval, Layout) {
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
             var index = 0;
@@ -26,19 +26,27 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
                 $scope.currentPage = $scope.pages[index];
                 Layout.setTitle($scope.currentPage.metatile);
                 Layout.setDescription($scope.currentPage.metadescription);
+                $scope.textPanel = $scope.currentPage.text.substring(0, $scope.currentPage.text.length - $scope.textPanelPointer);
               }
               index++;
             }
           });
         $scope.textPanelCollapsed = true;
+        $scope.textPanel = '';
+        $scope.textPanelPointer = 400;
         $scope.changeTextLength = function() {
             $scope.textPanelCollapsed = !$scope.textPanelCollapsed;
             if ($scope.textPanelCollapsed) {
-
+              $interval(function() {
+                $scope.textPanelPointer++;
+                $scope.textPanel = $scope.currentPage.text.substring(0, $scope.currentPage.text.length - $scope.textPanelPointer);
+              }, 1, 400);
             } else {
-                
+              $interval(function() {
+                $scope.textPanelPointer--;
+                $scope.textPanel = $scope.currentPage.text.substring(0, $scope.currentPage.text.length - $scope.textPanelPointer);
+              }, 1, 400);
             }
-            console.log('hit', $scope.textPanelCollapsed);
           };
       }]);
 

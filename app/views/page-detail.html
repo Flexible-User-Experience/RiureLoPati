@@ -1,4 +1,4 @@
 <div class="firsLeftBox">
-  <p>{{ currentPage.text }}</p>
-  <p><a class="btn btn-primary btn-xs" ng-click="changeTextLength()">llegir més</a></p>
+  <p>{{ textPanel }}</p>
+  <p><a class="btn btn-primary btn-xs" ng-click="changeTextLength()">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
 </div>
