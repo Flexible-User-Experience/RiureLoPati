@@ -7,7 +7,52 @@
         "metatile": "Metatitle page 1",
         "metadescription": "Metadescription page 1",
         "position": 1,
-        "active": 1
+        "active": 1,
+        "text": "<strong>Superioritat Vs Inferioritat</strong>: Un dels efectes més colpidors de l'acte de riure és el trastocament de les relacions jeràrquiques que provoca. Moltes cultures han establert períodes on les distincions de rang i estatus queden suspeses i l'humor té via lliure per atacar institucions fins aleshores intocables: les saturnals romanes, la festa dels folls medieval i els carnavals són exemples d’aquest momentani capgirament. El caràcter fugisser i fulgurant de la riallada fou intuït per Hobbes en la seva definició d'humor com a \"glòria sobtada\": <em>\"es pot concloure que l'humor no és sinó la glòria sobtada derivada d’una concepció sobtada d'eminència en nosaltres mateixos, en comparació amb la debilitat dels altres, o amb la nostra pròpia d’abans.\"</em>",
+        "media": [
+            {
+                "id": 1,
+                "title": "Lluís Felip I convertint-se en una pera",
+                "author": "Charles Philipon",
+                "year": 1893,
+                "text": "Aquest esbós...",
+                "image": "1.jpg",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "position": 1,
+                "active": 1,
+                "type": "image"
+            },
+            {
+                "id": 2,
+                "title": "Auca dels pelegrins",
+                "author": "La Campana de Gràcia",
+                "year": 1891,
+                "text": "Les primeres auques tractaven temes força innocus...",
+                "image": "2.png",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "position": 2,
+                "active": 1,
+                "type": "image"
+            },
+            {
+                "id": 3,
+                "title": "Viatge promocional a l'infern",
+                "author": "Karl Kraus",
+                "year": 1921,
+                "text": "Karl Kraus fou el més gran practicant...",
+                "image": "3.png",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "position": 3,
+                "active": 1,
+                "type": "image"
+            }
+        ]
     },
     {
         "id": 2,
@@ -17,6 +62,23 @@
         "metatile": "Metatitle page 2",
         "metadescription": "Metadescription page 2",
         "position": 2,
-        "active": 1
+        "active": 1,
+        "text": "",
+        "media": [
+            {
+                "id": 0,
+                "title": "",
+                "author": "",
+                "year": 0,
+                "text": "",
+                "image": "",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "position": 0,
+                "active": 0,
+                "type": ""
+            }
+        ]
     }
 ]

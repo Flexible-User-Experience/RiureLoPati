@@ -18,9 +18,17 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
     function($scope, $http, $routeParams, Layout) {
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
-            $scope.currentPage = $scope.pages[$routeParams.pageId];
-            Layout.setTitle($scope.currentPage.metatile);
-            Layout.setDescription($scope.currentPage.metadescription);
+            var index = 0;
+            var found = false;
+            while (!found && index < $scope.pages.length) {
+              if ($scope.pages[index].id === parseInt($routeParams.pageId, 10)) {
+                found = true;
+                $scope.currentPage = $scope.pages[index];
+                Layout.setTitle($scope.currentPage.metatile);
+                Layout.setDescription($scope.currentPage.metadescription);
+              }
+              index++;
+            }
           });
       }]);
 
