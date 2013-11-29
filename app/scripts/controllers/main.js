@@ -2,8 +2,8 @@
 
 var riureLoPatiControllers = angular.module('riureLoPatiControllers', []);
 
-riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http',
-    function($scope, $http) {
+riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', 'Page',
+    function($scope, $http, Page) {
         $scope.awesomeThings = [
           'HTML5 Boilerplate',
           'AngularJS',
@@ -12,10 +12,12 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http',
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });
+        $scope.Page = Page;
+        Page.setTitle('title main page');
       }]);
 
-riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http',
-    function($scope, $http) {
+riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', 'Page',
+    function($scope, $http, Page) {
         $scope.notSoAwesomeThings = [
           'XML',
           'jQuery'
@@ -23,4 +25,5 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http',
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });
+        Page.setTitle('title page detail');
       }]);
