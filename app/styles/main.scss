@@ -24,20 +24,24 @@ body {
 }
 
 /* Custom page header */
-.header {
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 4000px;
+    background: white;
     h1 {
         margin-left: 40px;
-        margin-top: 0;
+        margin-top: 20px;
         font-weight: bold;
+        font-size: 60px;
     }
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
+    h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+    }
 }
 
 /* Custom page footer */
@@ -81,6 +85,7 @@ body {
 }
 
 #items {
+    margin-top: 95px;
     overflow-x: auto;
     white-space: nowrap;
     width: 2000px;
