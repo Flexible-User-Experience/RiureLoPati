@@ -135,6 +135,34 @@
                 "position": 9,
                 "active": 1,
                 "type": "youtube"
+            },
+            {
+                "id": 10,
+                "title": "Una noche con Amenábar",
+                "author": "Querido Antonio",
+                "year": 2006,
+                "text": "La sàtira d’un personatge públic és un dels gèneres que més memes produeix. L’exposició als mitjans comercials obliga a les personalitats a adoptar una posa i la seva tendència a l’autopromoció els converteix en un blanc ideal per a les sàtires. En aquest vídeo d’Alberto González Vázquez, el director de cinema Amenábar es parodiat en una successió d’escenes plenes d’al·lusions a gèneres fílmics. En la sàtira contemporània el context sovint és visual i un vídeo no s’explica sense molts altres vídeos en una cadena de referencialitats sense fi.",
+                "image": "",
+                "youtube": "http://youtu.be/zH1KxoYp2b4",
+                "vimeo": "",
+                "attachment": "",
+                "position": 10,
+                "active": 1,
+                "type": "youtube"
+            },
+            {
+                "id": 11,
+                "title": "El político neoliberal",
+                "author": "Pony Bravo",
+                "year": 2013,
+                "text": "La inclusió d’un personatge fictici en imatges documentals és una tècnica de gran recorregut humorístic des de <em>Zelig</em> de Woody Allen. Aquest videoclip del grup Pony Bravo no busca l’equívoc (el retoc és volgudament evident) sinó la incongruència i la denúncia d’unes elits que sempre ens ofereixen la cara edulcorada pels mitjans.",
+                "image": "",
+                "youtube": "",
+                "vimeo": "http://vimeo.com/60601830",
+                "attachment": "",
+                "position": 11,
+                "active": 1,
+                "type": "vimeo"
             }
         ]
     },
