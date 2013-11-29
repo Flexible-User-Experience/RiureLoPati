@@ -26,6 +26,11 @@ body {
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
+    h1 {
+        margin-left: 40px;
+        margin-top: 0;
+        font-weight: bold;
+    }
 }
 
 /* Make the masthead heading the same height as the navigation */
