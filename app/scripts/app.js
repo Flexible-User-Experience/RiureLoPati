@@ -27,8 +27,8 @@ riureLoPatiApp.config(['$routeProvider',
       });
   }]);
 
-riureLoPatiApp.factory('Page', function(){
-  var title = 'default';
+riureLoPatiApp.factory('Layout', function(){
+  var title = '';
   return {
     title: function() { return title; },
     setTitle: function(newTitle) { title = newTitle; }
