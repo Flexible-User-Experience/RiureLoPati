@@ -13,7 +13,7 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', 'Page',
             $scope.pages = data;
           });
         $scope.Page = Page;
-        Page.setTitle('title main page');
+        Page.setTitle('Main page');
       }]);
 
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', 'Page',
@@ -25,5 +25,6 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', 'Page',
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });
-        Page.setTitle('title page detail');
+        $scope.Page = Page;
+        Page.setTitle('Page detail');
       }]);
