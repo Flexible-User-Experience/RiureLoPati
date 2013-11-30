@@ -38,3 +38,10 @@ riureLoPatiApp.factory('Layout', function(){
     setDescription: function(newDescription) { description = newDescription; }
   };
 });
+
+riureLoPatiApp.directive('myImage', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/boxes/box-custom-image.html'
+    };
+  });

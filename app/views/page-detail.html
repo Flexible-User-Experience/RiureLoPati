@@ -4,11 +4,7 @@
   <p ng-if="!textPanelCollapsed" ng-bind-html="currentPage.text"></p>
   <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
 </div>
-
-  <div class="leftBoxes" ng-repeat="media in currentPage.medias">
-    <h3>{{ media.title }}</h3>
-    <h4>{{ media.author }}, {{ media.year }}</h4>
-    <p ng-bind-html="media.text"></p>
-    <img ng-src="images/{{ media.image }}" alt="" title=""/>
+  <div ng-repeat="media in currentPage.medias">
+    <my-image ng-if="media.type == 'image'"></my-image>
   </div>
 </div>
