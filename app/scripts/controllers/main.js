@@ -14,8 +14,8 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', 'Layout',
         Layout.setDescription('Metadescription');
       }]);
 
-riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', 'Layout',
-    function($scope, $http, $routeParams, $interval, Layout) {
+riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', '$sce', 'Layout',
+    function($scope, $http, $routeParams, $interval, $sce, Layout) {
         $http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
             var index = 0;
@@ -32,6 +32,9 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
             }
           });
         $scope.textPanelCollapsed = true;
+        $scope.trustSrc = function(src) {
+            return $sce.trustAsResourceUrl(src);
+          };
       }]);
 
 riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
