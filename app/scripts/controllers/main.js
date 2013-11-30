@@ -32,22 +32,6 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
             }
           });
         $scope.textPanelCollapsed = true;
-        $scope.textPanel = '';
-        $scope.textPanelPointer = 3162;
-        $scope.changeTextLength = function() {
-            $scope.textPanelCollapsed = !$scope.textPanelCollapsed;
-            if ($scope.textPanelCollapsed) {
-              $interval(function() {
-                $scope.textPanelPointer++;
-                $scope.textPanel = $scope.currentPage.text.substring(0, $scope.currentPage.text.length - $scope.textPanelPointer);
-              }, 1, 3162);
-            } else {
-              $interval(function() {
-                $scope.textPanelPointer--;
-                $scope.textPanel = $scope.currentPage.text.substring(0, $scope.currentPage.text.length - $scope.textPanelPointer);
-              }, 1, 3162);
-            }
-          };
       }]);
 
 riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',

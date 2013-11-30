@@ -8,6 +8,7 @@ var riureLoPatiApp = angular.module('riureLoPatiApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
+  'ngAnimate',
   'riureLoPatiControllers'
 ]);
 
