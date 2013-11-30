@@ -45,3 +45,17 @@ riureLoPatiApp.directive('myImage', function() {
       templateUrl: 'views/boxes/box-custom-image.html'
     };
   });
+
+riureLoPatiApp.directive('myYoutube', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/boxes/box-custom-youtube.html'
+    };
+  });
+
+riureLoPatiApp.directive('myVimeo', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/boxes/box-custom-vimeo.html'
+    };
+  });

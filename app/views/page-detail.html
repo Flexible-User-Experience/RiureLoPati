@@ -6,5 +6,7 @@
 </div>
   <div ng-repeat="media in currentPage.medias">
     <my-image ng-if="media.type == 'image'"></my-image>
+    <my-youtube ng-if="media.type == 'youtube'"></my-youtube>
+    <my-vimeo ng-if="media.type == 'vimeo'"></my-vimeo>
   </div>
 </div>
