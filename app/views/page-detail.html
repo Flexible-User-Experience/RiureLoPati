@@ -1,7 +1,7 @@
 <div id="items" style="width:4700px;">
 <div class="firsLeftBox">
-  <p ng-if="textPanelCollapsed" ng-bind-html="currentPage.summary"></p>
-  <p ng-if="!textPanelCollapsed" ng-bind-html="currentPage.text"></p>
+  <p class="fader" ng-hide="!textPanelCollapsed" ng-bind-html="currentPage.summary"></p>
+  <p class="fader" ng-hide="textPanelCollapsed" ng-bind-html="currentPage.text"></p -->
   <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
 </div>
   <div ng-repeat="media in currentPage.medias">

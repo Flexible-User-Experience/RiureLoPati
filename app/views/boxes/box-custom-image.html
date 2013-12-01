@@ -2,9 +2,23 @@
     <h3 ng-if="!media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="!media.isinverted" ng-bind-html="media.text"></p>
-    <img ng-src="{{ getImagePath(media.image) }}" alt="" title=""/>
+    <img ng-src="{{ getImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
     <h3 ng-if="media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
     <p ng-if="media.attachment"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">descarrega arxiu</a></p>
+</div>
+
+<div class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="width:90%">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">{{ media.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <img style="width:100%" ng-src="{{ getImagePath(media.image) }}" alt="" title=""/>
+      </div>
+    </div>
+  </div>
 </div>

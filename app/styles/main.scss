@@ -81,6 +81,27 @@ body {
     p {
         white-space: normal;
     }
+    p.fadder {
+        background: white;
+        -webkit-transition: 1.5s linear all;
+        transition: 1.5s linear all;
+    }
+    p.fader.ng-hide-add {
+        opacity: 1.0;
+        display: block !important;
+        transition: opacity 1s;
+    }
+    p.fader.ng-hide-add-active {
+        opacity: 0;
+    }
+    p.fader.ng-show-add {
+        opacity: 0;
+        display: block !important;
+        transition: opacity 1s;
+    }
+    p.fader.ng-show-add-active {
+        opacity: 1.0;
+    }
 }
 
 #items {
