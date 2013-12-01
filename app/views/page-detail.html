@@ -1,9 +1,15 @@
 <div id="items" style="width:4700px;">
 <div class="firsLeftBox">
-  <p class="fader" ng-hide="!textPanelCollapsed" ng-bind-html="currentPage.summary"></p>
-  <p class="fader" ng-hide="textPanelCollapsed" ng-bind-html="currentPage.text"></p -->
-  <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
-  <span style="position:inherit;" class="glyphicon glyphicon-circle-arrow-right"></span>
+  <div class="summaryPanel fader" ng-class="{cloak: !textPanelCollapsed, uncloak: textPanelCollapsed}">
+    <p ng-bind-html="currentPage.summary"></p>
+    <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir més</a></p>
+    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+  </div>
+  <div class="textPanel fader" ng-class="{cloak: textPanelCollapsed, uncloak: !textPanelCollapsed}">
+    <p ng-bind-html="currentPage.text"></p>
+    <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir menys</a></p>
+    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+  </div>
 </div>
   <div ng-repeat="media in currentPage.medias">
     <my-image ng-if="media.type == 'image'"></my-image>

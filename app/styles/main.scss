@@ -25,6 +25,7 @@ body {
 
 /* Custom page header */
 #header {
+    z-index: 100;
     position: fixed;
     left: 0;
     top: 0;
@@ -78,29 +79,42 @@ body {
     margin: 0 20px 40px 40px;
     float: left;
     width: 350px;
+    position: relative;
     p {
         white-space: normal;
     }
-    p.fadder {
+    div.summaryPanel, div.textPanel {
+        position: absolute;
+    }
+    div.summaryPanel {
+        z-index: 10;
+    }
+    div.fadder {
         background: white;
-        -webkit-transition: 1.5s linear all;
-        transition: 1.5s linear all;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;    
+        transition: opacity 1s ease-in-out;
+        opacity: 1.0;
     }
-    p.fader.ng-hide-add {
+    div.fader.uncloak {
         opacity: 1.0;
         display: block !important;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        -ms-transition: opacity 1s;
         transition: opacity 1s;
     }
-    p.fader.ng-hide-add-active {
-        opacity: 0;
-    }
-    p.fader.ng-show-add {
+    div.fader.cloak {
         opacity: 0;
         display: block !important;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        -ms-transition: opacity 1s;
         transition: opacity 1s;
-    }
-    p.fader.ng-show-add-active {
-        opacity: 1.0;
     }
 }
 
@@ -125,56 +139,6 @@ body {
         margin-bottom: 10px;
         cursor: pointer;
     }
-}
-
-.my-slide-animation.ng-enter, .my-slide-animation.ng-leave {
-    background: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.my-slide-animation.ng-enter {
-    -webkit-animation: 0.5s fade-in;
-  -moz-animation: 0.5s fade-in;
-  -o-animation: 0.5s fade-in;
-  animation: 0.5s fade-in;
-  z-index: 100;
-}
-
-.my-slide-animation.ng-leave {
-    -webkit-animation: 0.5s fade-out;
-  -moz-animation: 0.5s fade-out;
-  -o-animation: 0.5s fade-out;
-  animation: 0.5s fade-out;
-  z-index:99;
-}
-
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@-moz-keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@-webkit-keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
- 
-@keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-@-moz-keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-@-webkit-keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
 }
 
 /* Responsive: Portrait tablets and up */
