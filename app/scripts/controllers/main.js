@@ -39,6 +39,9 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
         $scope.getImagePath = function(path) {
             return 'images/' + path;
           };
+        $scope.getThumbImagePath = function(path) {
+            return 'images/thumbs/' + path;
+          };
         $scope.getAttatchmentPath = function(path) {
             return 'attatchments/' + path;
           };

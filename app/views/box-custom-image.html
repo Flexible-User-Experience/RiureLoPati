@@ -2,7 +2,7 @@
     <h3 ng-if="!media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="!media.isinverted" ng-bind-html="media.text"></p>
-    <img ng-src="{{ getImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
+    <img ng-src="{{ getThumbImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
     <h3 ng-if="media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
@@ -10,7 +10,7 @@
 </div>
 
 <div class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" style="width:90%">
+  <div class="modal-dialog" style="width:95%">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
