@@ -2,9 +2,9 @@
     <h3 ng-if="!media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="!media.isinverted" ng-bind-html="media.text"></p>
-    <img ng-src="images/{{ media.image }}" alt="" title=""/>
+    <img ng-src="{{ getImagePath(media.image) }}" alt="" title=""/>
     <h3 ng-if="media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
-    <p ng-if="media.attachment"><a class="btn btn-primary btn-xs" ng-href="/attatchments/{{ media.attachment }}" download="{{ media.attachment }}">descarrega arxiu</a></p>
+    <p ng-if="media.attachment"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">descarrega arxiu</a></p>
 </div>

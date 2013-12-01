@@ -36,6 +36,12 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
         $scope.trustSrc = function(src) {
             return $sce.trustAsResourceUrl(src);
           };
+        $scope.getImagePath = function(path) {
+            return 'images/' + path;
+          };
+        $scope.getAttatchmentPath = function(path) {
+            return 'attatchments/' + path;
+          };
       }]);
 
 riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
