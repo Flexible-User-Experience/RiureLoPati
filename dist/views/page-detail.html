@@ -3,6 +3,7 @@
   <p class="fader" ng-hide="!textPanelCollapsed" ng-bind-html="currentPage.summary"></p>
   <p class="fader" ng-hide="textPanelCollapsed" ng-bind-html="currentPage.text"></p>
   <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">{{ textPanelCollapsed ? 'llegir més' : 'llegir menys' }}</a></p>
+  <span style="position:inherit" class="glyphicon glyphicon-circle-arrow-right"></span>
 </div>
   <div ng-repeat="media in currentPage.medias">
     <my-image ng-if="media.type == 'image'"></my-image>
