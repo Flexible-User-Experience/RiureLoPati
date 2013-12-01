@@ -42,20 +42,20 @@ riureLoPatiApp.factory('Layout', function(){
 riureLoPatiApp.directive('myImage', function() {
     return {
       restrict: 'E',
-      templateUrl: 'views/boxes/box-custom-image.html'
+      templateUrl: 'views/box-custom-image.html'
     };
   });
 
 riureLoPatiApp.directive('myYoutube', function() {
     return {
       restrict: 'E',
-      templateUrl: 'views/boxes/box-custom-youtube.html'
+      templateUrl: 'views/box-custom-youtube.html'
     };
   });
 
 riureLoPatiApp.directive('myVimeo', function() {
     return {
       restrict: 'E',
-      templateUrl: 'views/boxes/box-custom-vimeo.html'
+      templateUrl: 'views/box-custom-vimeo.html'
     };
   });
