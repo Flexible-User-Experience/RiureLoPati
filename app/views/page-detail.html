@@ -1,20 +1,20 @@
 <div id="items">
   <div class="firsLeftBox">
-    <div class="summaryPanel fader" ng-class="{cloak: !textPanelCollapsed, uncloak: textPanelCollapsed}">
+    <div class="summaryPanel fader" ng-show="textPanelCollapsed">
       <p ng-bind-html="currentPage.summary"></p>
       <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir més</a></p>
       <span class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
-    <div class="textPanel fader" ng-class="{cloak: textPanelCollapsed, uncloak: !textPanelCollapsed}">
+    <div class="textPanel fader" ng-show="!textPanelCollapsed">
       <p ng-bind-html="currentPage.text"></p>
       <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir menys</a></p>
       <span class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
     <div class="footer">
       <h5>Organitza_</h5>
-      <a target="_blank" href="http://www.lopati.cat/"><img ng-src="images/layout/logo-lopati.png" alt="" title="" style="width:150px;"/></a><br/>
+      <a target="_blank" href="http://www.lopati.cat/"><img ng-src="images/layout/logo-lopati.png" alt="" title="" style="width:100px;margin-bottom:40px"/></a><br/>
       <h5>Amb el suport de_</h5>
-      <img ng-src="images/layout/logos-peu-compact.png" alt="" title="" style="width:315px;"/>
+      <img ng-src="images/layout/logos-peu-compact.png" alt="" title=""/>
     </div>
   </div>
   <div ng-repeat="media in currentPage.medias">
