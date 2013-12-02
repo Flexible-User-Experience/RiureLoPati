@@ -11,7 +11,7 @@
     <p ng-if="media.attachment3"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment3) }}" download="{{ media.attachment3 }}">{{ media.textattachmentbutton3 }}</a></p>
 </div>
 
-<div class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div style="z-index:10000" class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" style="width:95%">
     <div class="modal-content">
       <div class="modal-header">
