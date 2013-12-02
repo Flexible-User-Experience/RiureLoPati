@@ -198,7 +198,7 @@ var pages = [
                 "year": 2006,
                 "text": "La sàtira d’un personatge públic és un dels gèneres que més memes produeix. L’exposició als mitjans comercials obliga a les personalitats a adoptar una posa i la seva tendència a l’autopromoció els converteix en un blanc ideal per a les sàtires. En aquest vídeo d’Alberto González Vázquez, el director de cinema Amenábar es parodiat en una successió d’escenes plenes d’al·lusions a gèneres fílmics. En la sàtira contemporània el context sovint és visual i un vídeo no s’explica sense molts altres vídeos en una cadena de referencialitats sense fi.",
                 "image": "",
-                "youtube": "http://wwww.youtube.com/embed/zH1KxoYp2b4?wmode=transparent",
+                "youtube": "http://www.youtube.com/embed/zH1KxoYp2b4?wmode=transparent",
                 "vimeo": "",
                 "attachment": "",
                 "attachment2": "",
