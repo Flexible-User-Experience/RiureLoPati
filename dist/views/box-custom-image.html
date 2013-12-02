@@ -7,6 +7,8 @@
     <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
     <p ng-if="media.attachment"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">{{ media.textattachmentbutton }}</a></p>
+    <p ng-if="media.attachment2"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment2) }}" download="{{ media.attachment2 }}">{{ media.textattachmentbutton2 }}</a></p>
+    <p ng-if="media.attachment3"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment3) }}" download="{{ media.attachment3 }}">{{ media.textattachmentbutton3 }}</a></p>
 </div>
 
 <div class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
