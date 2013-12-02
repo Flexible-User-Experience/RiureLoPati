@@ -33,14 +33,15 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 4720px;
-    background: black;
+    width: 5700px;
+    background: white;
+    border-bottom: solid 4px black;
     h1 {
         margin-left: 40px;
         margin-top: 4px;
         font-weight: bold;
-        font-size: 60px;
-        color: white;
+        font-size: 70px;
+        color: black;
     }
     h3 {
     margin-top: 0;
@@ -50,10 +51,16 @@ body {
     }
 }
 
+#strobelogo {
+    position: fixed;
+    right: 40px;
+    top: 2px;
+}
+
 /* Custom page footer */
 .footer {
-    padding-top: 20px;
-    margin-left: 40px;
+    padding-top: 120px;
+    /*margin-left: 40px;*/
 }
 
 .container-narrow > hr {
@@ -81,16 +88,16 @@ body {
 }
 
 .firsLeftBox {
-    margin: 0 20px 40px 40px;
+    margin: 60px 60px 40px 40px;
     float: left;
     width: 350px;
-    position: relative;
+    /*position: relative;*/
     p {
         white-space: normal;
     }
-    div.summaryPanel, div.textPanel {
+    /*div.summaryPanel, div.textPanel {
         position: absolute;
-    }
+    }*/
     div.summaryPanel {
         z-index: 10;
     }
@@ -124,16 +131,16 @@ body {
 }
 
 #items {
-    margin-top: 60px;
+    margin-top: 70px;
     padding-top: 30px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    width: 4720px;
+    width: 5700px;
 }
 
 .leftBoxes {
-    margin: 0 20px 40px 20px;
+    margin: 0 60px 40px 60px;
     float: left;
     width: 350px;
     white-space: normal;
