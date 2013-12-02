@@ -78,7 +78,7 @@ var pages = [
                 "year": 1936,
                 "text": "El 1936 un grups d’estudiants de la Universitat de Princeton, veient molt propera la possibilitat d’una altra guerra mundial, demanaren cobrar per anticipat la pensió que els pertocaria en un futur com a veterans de guerra. D’aquesta manera, podrien gaudir els diners mentre encara eren joves i no haver d’esperar a estar esguerrats per les bombes. Aquesta fina sàtira de la resignació col·lectiva davant el militarisme tingué un gran impacte i esdevingué profètica quan la majoria d’integrants del moviment foren cridats a files.",
                 "image": "",
-                "youtube": "http://www.youtube.com/embed/JnE9pDPqTKE",
+                "youtube": "http://www.youtube.com/embed/JnE9pDPqTKE?wmode=transparent",
                 "vimeo": "",
                 "attachment": "",
                 "attachment2": "",
