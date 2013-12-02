@@ -2,7 +2,7 @@
     <h3 ng-if="!media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="!media.isinverted" ng-bind-html="media.text"></p>
-    <iframe style="z-index:1" width="350" height="300" ng-src="{{ trustSrc(media.youtube) }}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <iframe style="z-index:1" width="350" height="300" ng-src="{{ trustSrc(media.youtube) }}" frameborder="0" wmode="transparent" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
     <h3 ng-if="media.isinverted">{{ media.title }}</h3>
     <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
     <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
