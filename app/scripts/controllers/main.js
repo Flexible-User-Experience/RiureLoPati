@@ -15,12 +15,26 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', '
         Layout.setDescription('Metadescription');*/
       }]);
 
+riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
+    function($scope, $http, $location, Layout) {
+        Layout.setTitle('Main page');
+        $location.path('/1/ca');
+        /*$http.get('data/pages.json').success(function(data) {
+            $scope.pages = data;
+          });        
+        Layout.setDescription('Metadescription');*/
+      }]);
+
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', '$sce', 'Layout',
     function($scope, $http, $routeParams, $interval, $sce, Layout) {
         /* Avoid async load for SEO reasons */
         /*$http.get('data/pages.json').success(function(data) {
           });*/
-        $scope.pages = pages;
+        if ($routeParams.locale === 'es') {
+          $scope.pages = pageses;
+        } else {
+          $scope.pages = pagesca;
+        }
         var index = 0;
         var found = false;
         while (!found && index < $scope.pages.length) {

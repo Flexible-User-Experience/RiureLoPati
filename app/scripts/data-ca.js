@@ -1,4 +1,4 @@
-var pages = [
+var pagesca = [
     {
         "id": 1,
         "code": "001-00A",

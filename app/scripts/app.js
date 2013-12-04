@@ -21,6 +21,10 @@ riureLoPatiApp.config(['$routeProvider',
       })
       .when('/:pageId', {
         templateUrl: 'views/page-detail.html',
+        controller: 'DefaultPageDetailCtrl'
+      })
+      .when('/:pageId/:locale', {
+        templateUrl: 'views/page-detail.html',
         controller: 'PageDetailCtrl'
       })
       .otherwise({
