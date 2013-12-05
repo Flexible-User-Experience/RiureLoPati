@@ -76,7 +76,7 @@ var pagesca = [
                 "title": "Veterans de guerres futures",
                 "author": "Estudiants de Princeton",
                 "year": 1936,
-                "text": "El 1936 un grups d’estudiants de la Universitat de Princeton, veient molt propera la possibilitat d’una altra guerra mundial, demanaren cobrar per anticipat la pensió que els pertocaria en un futur com a veterans de guerra. D’aquesta manera, podrien gaudir els diners mentre encara eren joves i no haver d’esperar a estar esguerrats per les bombes. Aquesta fina sàtira de la resignació col·lectiva davant el militarisme tingué un gran impacte i esdevingué profètica quan la majoria d’integrants del moviment foren cridats a files.",
+                "text": "El 1936 un grup d’estudiants de la Universitat de Princeton, veient molt propera la possibilitat d’una altra guerra mundial, demanaren cobrar per anticipat la pensió que els pertocaria en un futur com a veterans de guerra. D’aquesta manera, podrien gaudir els diners mentre encara eren joves i no haver d’esperar a estar esguerrats per les bombes. Aquesta fina sàtira de la resignació col·lectiva davant el militarisme tingué un gran impacte i esdevingué profètica quan la majoria d’integrants del moviment foren cridats a files.",
                 "image": "",
                 "youtube": "http://www.youtube.com/embed/JnE9pDPqTKE?wmode=transparent",
                 "vimeo": "",
@@ -114,7 +114,7 @@ var pagesca = [
             {
                 "id": 6,
                 "title": "El retorn de la columna Durruti",
-                "author": "Internacional Situacionista/ André Bertrand",
+                "author": "Internacional Situacionista / André Bertrand",
                 "year": 1967,
                 "text": "<em>Le Retour de la Colonne Durutti</em> fou un còmic/pamflet repartit entre els estudiants de la Universitat d’Estrasburg. Està construït mitjançat la tècnica del <em>détournement</em>: apropiar-se de mitjans i canals de la societat de l’espectacle, manipular-los i usar-los com a eina de combat contra aquesta mateixa societat. L’obra combina dibuixos, fotogrames, anuncis i fragments de llibres, retocats per obrir-los a nous significats.  L’humor situacionista combina registres dispars, passa de l’ultra-intel·lectualització a la grolleria en una mateixa vinyeta, i reivindica la força del text en una societat que començava a estar saturada d’estímuls visuals.",
                 "image": "6.png",
