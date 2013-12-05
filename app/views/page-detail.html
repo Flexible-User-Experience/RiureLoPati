@@ -3,12 +3,12 @@
     <div class="summaryPanel fader" ng-show="textPanelCollapsed">
       <p ng-bind-html="currentPage.summary"></p>
       <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir més</a></p>
-      <span class="glyphicon glyphicon-circle-arrow-right"></span>
+      <span onclick="moveMe()" class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
     <div class="textPanel fader" ng-show="!textPanelCollapsed">
       <p ng-bind-html="currentPage.text"></p>
       <p><a class="btn btn-primary btn-xs" ng-click="textPanelCollapsed=!textPanelCollapsed">llegir menys</a></p>
-      <span class="glyphicon glyphicon-circle-arrow-right"></span>
+      <span onclick="moveMe()" class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
     <div class="footer">
       <h5>Organitza_</h5>

@@ -65,3 +65,7 @@ riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
     function($scope, $http, Layout) {
         $scope.Layout = Layout;
       }]);
+
+function moveMe() {
+  $('html,body').animate({scrollLeft: $("#tope").offset().left}, 2000, 'swing');
+}
