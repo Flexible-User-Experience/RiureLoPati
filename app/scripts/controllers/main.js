@@ -67,5 +67,5 @@ riureLoPatiControllers.controller('LayoutCtrl', ['$scope', '$http', 'Layout',
       }]);
 
 function moveMe() {
-  $('html,body').animate({scrollLeft: $("#tope").offset().left}, 2000, 'swing');
+  $('html,body').animate({scrollLeft: $("#tope").offset().left-1000}, 5500, 'easeOutQuad');
 }
