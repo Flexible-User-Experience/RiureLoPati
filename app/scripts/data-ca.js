@@ -158,7 +158,7 @@ var pagesca = [
                 "year": 1993,
                 "text": "El grup RTMark comprà el 1993 centenars de nines Barbies i ninots G.I. Joe. Intercanviaren les gravacions internes de veu de les dues joguines i les retornaren als estants de les botigues. Les nenes es trobaren, doncs, amb nines Barbies que deien “foc a discreció” i els nens amb G.I. Joes que deien “vull anar de compres”. Aquesta acció contra els estereotips de gènere en els objectes produïts per la societat de consum és de clara inspiració situacionista. El hackeig d’objectes tecnològics esdevé un nou i potent canal per a la sàtira: és el naixement del hacktivisme.",
                 "image": "",
-                "youtube": "http://www.youtube.com/embed/OVT4T7OR3iQ?wmode=transparent",
+                "youtube": "http://www.youtube.com/embed/OPeOD4ZQdXY?wmode=transparent",
                 "vimeo": "",
                 "attachment": "",
                 "attachment2": "",

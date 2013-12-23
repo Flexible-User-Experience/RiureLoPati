@@ -158,7 +158,7 @@ var pageses = [
                 "year": 1993,
                 "text": "El grupo RTMark compró en 1993 centenares de muñecas Barbies y muñecos G.I. Joe. Intercambiaron las grabaciones internas de voz de los dos juguetes y las devolvieron a los estantes de las tiendas. Las niñas se encontraron, pues, con muñecas Barbies que decían “fuego a discreción” y los niños con G.I. Joes que decían “quiero ir de compras”. Esta acción contra los estereotipos de género en los objetos producidos por la sociedad del consumo es de clara inspiración situacionista. El hackeo de objetos tecnológicos acontece un nuevo y potente canal para la sátira: es el nacimiento del hacktivismo.",
                 "image": "",
-                "youtube": "http://www.youtube.com/embed/OVT4T7OR3iQ?wmode=transparent",
+                "youtube": "http://www.youtube.com/embed/OPeOD4ZQdXY?wmode=transparent",
                 "vimeo": "",
                 "attachment": "",
                 "attachment2": "",
