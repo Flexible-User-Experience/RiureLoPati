@@ -355,6 +355,7 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-ssh');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
