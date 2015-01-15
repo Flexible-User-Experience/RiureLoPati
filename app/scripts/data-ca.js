@@ -285,6 +285,26 @@ var pagesca = [
                 "isinverted": true,
                 "type": "image"
             },
+            {
+                "id": 14,
+                "title": "Mlle des Faveurs a la Promenade a Londres",
+                "author": "Anònim",
+                "year": 1770-1780,
+                "text": "La figura de l’estranger ha estat sempre un agent provocador de situacions incongruents. El xoc entre les habituds i maneres d’un i altre país és font de ridícules incomprensions. Tots els països compten amb acudits ajustats al cèlebre patró de “es troben en un bar un espanyol, un francès i un alemany...”. La llengua anglesa ha fixat aquesta incongruència consubstancial a la condició d’estranger en l’adjectiu “outlandish” (out+land) aplicat sovint a situacions, comentaris i bromes d’una incongruència bizarre . En aquest gravat satíric la coiffure à physionomie élevée que s’estilava a la França cortesana es confosa per un colomar a Anglaterra. La dinàmica del gravat, però, no es limita al xoc de modes, també apunta a un xoc entre el tarannà aristocràtic francès i la mentalitat britànica. La seva data de publicació, pocs anys abans de la Revolució Francesa, és també significativa: una classe social esdevé ridícula abans d’esdevenir sobrera en termes històrics.",
+                "image": "14.jpg",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 1,
+                "active": true,
+                "isinverted": false,
+                "type": "image"
+            },
 
         ]
     }
