@@ -261,9 +261,31 @@ var pagesca = [
                 "textattachmentbutton2": "",
                 "textattachmentbutton3": "",
                 "position": 1,
-                "active": false,
+                "active": true,
+                "isinverted": false,
                 "type": "image"
-            }
+            },
+            {
+                "id": 13,
+                "title": "Ressemblances humaines et animales ",
+                "author": "Charles Le Brun",
+                "year": 1690,
+                "text": "És curiós que un dels artífexs del gust neoclàssic en pintura, el pintor i tractadista Charles Le Brun, fos alhora l’autor d’una de les sèries de dibuixos més inquietantment humorístiques de la història de l’art. Compendi que esgota totes les semblances fisonòmiques entre les persones i les bèsties, Ressemblances humaines et animales esdevé un homenatge a la nostra naturalesa híbrida. Deia Aristòtil que l’ésser humà és l’únic animal que riu. Podríem arrodonir la definició afegint-hi que és l’únic animal que s’avergonyeix i amaga les manifestacions de la seva pròpia animalitat. Els dibuixos de Le Brun ens inquieten perquè prenen el camí invers a les faules moralitzants, que humanitzen els animals, i ens remeten a una involució atàvica, una transformació animal explorada per la mitologia grega, en múltiples variants, des que els mariners d’Ulisses foren transformats en porcs.",
+                "image": "13a.png",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 2,
+                "active": true,
+                "isinverted": true,
+                "type": "image"
+            },
+
         ]
     }
 ];
