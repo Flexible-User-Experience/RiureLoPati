@@ -305,6 +305,26 @@ var pagesca = [
                 "isinverted": false,
                 "type": "image"
             },
+            {
+                "id": 15,
+                "title": "Fatty, Mabel and the Law",
+                "author": "Mabel Normand",
+                "year": 1912,
+                "text": "L’humor de les slapstick comedies del cinema mut es basava en una gestualitat aparatosa, unes persecucions frenètiques i el col•lapse de qualsevol element constructiu que oferís el més mínim punt de suport. Tots aquestes constants posaven en primer pla les penúries que ens ocasiona tenir un cos subjecte —a més de a les seves pròpies lleis— a la llei de la gravetat. Una de les tipologies clàssiques d’aquest gènere són les escenes don’t kiss me. L’actriu còmica Mabel Normand excel•lia en aquest tipus d’escenes físiques, bufetejant sense clemència els homes que provaven de robar-li un petó. La incongruència entre els homes sentimentals, infantils i rodanxons i les iracundes reaccions de la petita Mabel giraven les tornes de les relacions de poder entre sexes i la convertiren en l’antítesi d’altres actrius de cinema mut més ensucrades com Mary Pickford. ",
+                "image": "",
+                "youtube": "http://www.youtube.com/embed/eq-hlPRnS1c?wmode=transparent",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 1,
+                "active": true,
+                "isinverted": true,
+                "type": "youtube"
+            },
 
         ]
     }
