@@ -385,6 +385,26 @@ var pagesca = [
                 "isinverted": false,
                 "type": "youtube"
             },
+            {
+                "id": 19,
+                "title": "Tarzan",
+                "author": "Rémi Gaillard",
+                "year": 2009,
+                "text": "Rémi Gaillard s’ha convertit en el bromista pesat per excel•lència de l’era Youtube. Les seves plagasitats li han reportat milions de seguidors i diverses condemnes judicials. El bromista que estira el fil de la broma fins a les últimes conseqüències és, com els psicòtics, perfectament coherent dins el seu marc referencial. El problema és que el seu marc i la realitat són perfectament incongruents. Així, Gaillard veu un laberint de Pac-Man en els passadissos d’un supermercat o una trinxera militar en les trampes d’arena d’un camp de golf (fent honor a l’origen del seu nom: bunkers). En el vídeo de Tarzan reclama i ocupa un espai perfectament artificial i incongruent, el zoològic urbà. Fer-se incongruent en un espai incongruent no serà tal vegada la més congruent de les accions?",
+                "image": "",
+                "youtube": "http://www.youtube.com/embed/M-g-etgFk80?wmode=transparent",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 8,
+                "active": true,
+                "isinverted": true,
+                "type": "youtube"
+            },
 
         ]
     }
