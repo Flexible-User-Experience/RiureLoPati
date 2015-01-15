@@ -246,12 +246,12 @@ var pagesca = [
         "summary": "",
         "medias": [
             {
-                "id": 0,
-                "title": "",
-                "author": "",
-                "year": 0,
-                "text": "",
-                "image": "",
+                "id": 12,
+                "title": "Voeux du paon",
+                "author": "Anònim",
+                "year": 1350,
+                "text": "L’edat mitjana ha estat sovint presentada com una època on l’obscurantisme feudal i religiós imposava un rictus seriós a totes les manifestacions culturals. Tanmateix, en els marges dels manuscrits i en els capitells de les catedrals es detectable una predilecció molt acusada per la riallada subversiva, per la confrontació i confusió de discursos que pren cos en forma de gàrgoles i quimeres impossibles . La il•luminació dels manuscrits, encarregada habitualment a una persona diferent de l’escriba que fixava el text, era un terreny abonat per a l’esclat incontinent d’aquest gust per la riota: el marge esdevé comentari desestabilitzador de la seriositat oficial, la nota deixa de ser acotació per esdevenir sovint un punxó que obra una via d’aigua per on s’escola la pompositat dels grans discursos monolítics. En aquesta il•lustració al marge d’un romanç que conegué una gran difusió, un home nu es burla de la galant escena cortesana. Més avall, una quimera serpentina tocada amb un mitra fa befa de la religió. Els dos grans discursos idealistes medievals, el cavalleresc i el religiós, són atacats en una mateixa glossa marginal des de la carnalitat i l’animalitat més grollera. La incongruència entre el cos del text i el marge apunta a una mentalitat que, si bé encara no abraçava el dubte, era capaç de contemplar discursos paral•lels als dominants.",
+                "image": "12.jpg",
                 "youtube": "",
                 "vimeo": "",
                 "attachment": "",
@@ -260,9 +260,9 @@ var pagesca = [
                 "textattachmentbutton": "",
                 "textattachmentbutton2": "",
                 "textattachmentbutton3": "",
-                "position": 0,
+                "position": 1,
                 "active": false,
-                "type": ""
+                "type": "image"
             }
         ]
     }
