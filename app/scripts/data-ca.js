@@ -445,6 +445,26 @@ var pagesca = [
                 "isinverted": true,
                 "type": "youtube"
             },
+            {
+                "id": 22,
+                "title": "A Blobs Bike Ride ",
+                "author": "Jaimie Warren ",
+                "year": 2013,
+                "text": "En aquesta peça de l’artista nord-americana Jaimie Warren, una recreació de Le déjeuner sur l'herbe es converteix en una apoteosi del mal gust, en un groller pícnic on els colors pastel competeixen amb els xiscles més estridents i les cançons més insofribles per assolir la incongruència plàstica total. El resultat d’aquesta mena de wagnerianisme invers no pot ser altre que una digestió pesada. Un dels efectes humorístics més sovintejats és fer aflorar les sonoritats i olors de la nostra animalitat en un context extemporani. Així, els pets i els rots en moments inconvenients esdevenen recordatoris que ens avisen que per les nostres entranyes no hi corren només pensaments sublims. ",
+                "image": "",
+                "youtube": "",
+                "vimeo": "http://player.vimeo.com/video/68719482?title=0&amp;byline=0&amp;portrait=0",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 11,
+                "active": true,
+                "isinverted": false,
+                "type": "vimeo"
+            },
 
         ]
     }
