@@ -425,6 +425,26 @@ var pagesca = [
                 "isinverted": false,
                 "type": "youtube"
             },
+            {
+                "id": 21,
+                "title": "Drunken politicians ",
+                "author": "Reactor2studio",
+                "year": 2013,
+                "text": "Deia Groucho Marx que la política és l’art de buscar problemes, trobar-los, fer un diagnòstic fals i aplicar els remeis equivocats. Pura incongruència amb les nobles cantarelles del bé comú i el servei públic. Quan un polític es mostra embriac en un context carregat de solemnitat i càlcul racional, com ara un parlament, l’efecte còmic és immediat i infecciós. En un míting, però, l’efecte no és tan fort perquè són ja originàriament cerimònies que busquen l’atordiment dels sentits i l’anul•lació del raciocini, autèntiques borratxeres col•lectives.",
+                "image": "",
+                "youtube": "http://www.youtube.com/embed/kTy5JaH06zI?wmode=transparent",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 10,
+                "active": true,
+                "isinverted": true,
+                "type": "youtube"
+            },
 
         ]
     }
