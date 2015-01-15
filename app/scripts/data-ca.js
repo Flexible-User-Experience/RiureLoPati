@@ -405,6 +405,26 @@ var pagesca = [
                 "isinverted": true,
                 "type": "youtube"
             },
+            {
+                "id": 20,
+                "title": "Island of da motherboard slaughter",
+                "author": "Gangpol & Mit",
+                "year": 2009,
+                "text": "En els últims anys, en el camps de l’animació i el còmic, s’ha produït un corrent estètic que combina la innocència formal més naïf amb el fons temàtic més hardcore. L’efecte d’aquesta incongruència forma/fons pot ésser explotat tant amb finalitats tràgiques com còmiques. El duet gràfic i musical Gangpol & Mit se serveix del pixel-art, les perspectives isomètriques hereves dels videojocs i els sons MIDI per crear estranyes i hipnòtiques animacions que tenen quelcom de tràngol xamànic. Mutilacions, canibalisme i màscares primitives són amorosides per la innocència del píxel i els sons purs dels bips-bips digitals.",
+                "image": "",
+                "youtube": "http://www.youtube.com/embed/FL5w5pj_5JA?wmode=transparent",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 9,
+                "active": true,
+                "isinverted": false,
+                "type": "youtube"
+            },
 
         ]
     }
