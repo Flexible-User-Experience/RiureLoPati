@@ -325,6 +325,26 @@ var pagesca = [
                 "isinverted": true,
                 "type": "youtube"
             },
+            {
+                "id": 16,
+                "title": "L.H.O.O.Q.",
+                "author": "Marcel Duchamp",
+                "year": 1919.,
+                "text": "En un dels gestos fundacionals de l’art modern, Duchamp afegí bigoti i pera a una postal de la Gioconda. Titulà l’obra resultant  L.H.O.O.Q., inicials que pronunciades en francès sonen com “elle a chaud au cul”. Un dels adjectius preferits de Duchamp per desqualificar els moviments que no li agradaven era titllar-los d’avorrits, adjectiu que dedicà per exemple al cubisme. L’humor dadaista cerca la incongruència entre el discurs solemne de l’art oficial, basat en eteris conceptes de sublimitat, i els retocs burletes que desestabilitzen la peça i la posen en un context ordinari. Amb un subtil retoc o un simple canvi de context, el ready-made eleva objectes quotidians a la categoria d’art. En el cas d’aquesta peça, les infinites reproduccions mecàniques en forma de postal s’havien encarregat de degradar la imatge de la Gioconda fins a fer-la ordinària, familiar, massa “avorrida”.",
+                "image": "16.png",
+                "youtube": "",
+                "vimeo": "",
+                "attachment": "",
+                "attachment2": "",
+                "attachment3": "",
+                "textattachmentbutton": "",
+                "textattachmentbutton2": "",
+                "textattachmentbutton3": "",
+                "position": 1,
+                "active": true,
+                "isinverted": false,
+                "type": "image"
+            },
 
         ]
     }
