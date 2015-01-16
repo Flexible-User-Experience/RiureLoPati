@@ -1,11 +1,12 @@
 <div class="leftBoxes">
     <h3 data-ng-if="!media.isinverted">{{ media.title }}</h3>
     <h4 data-ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
-    <h4 data-ng-if="!media.isinverted">{{ media.location }}</h4>
+    <h5 data-ng-if="!media.isinverted">{{ media.location }}</h5>
     <p data-ng-if="!media.isinverted" data-ng-bind-html="media.text"></p>
     <img data-ng-src="{{ getThumbImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
     <h3 data-ng-if="media.isinverted">{{ media.title }}</h3>
     <h4 data-ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
+    <h5 data-ng-if="media.isinverted">{{ media.location }}</h5>
     <p data-ng-if="media.isinverted" data-ng-bind-html="media.text"></p>
     <p data-ng-if="media.attachment"><a class="btn btn-primary btn-xs" data-ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">{{ media.textattachmentbutton }}</a></p>
     <p data-ng-if="media.attachment2"><a class="btn btn-primary btn-xs" data-ng-href="{{ getAttatchmentPath(media.attachment2) }}" download="{{ media.attachment2 }}">{{ media.textattachmentbutton2 }}</a></p>
