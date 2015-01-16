@@ -16,7 +16,7 @@ riureLoPatiApp.config(['$routeProvider',
   function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/page-detail.html',
         controller: 'MainCtrl'
       })
       .when('/:pageId', {
