@@ -33,9 +33,12 @@ riureLoPatiApp.config(['$routeProvider',
   }]);
 
 riureLoPatiApp.factory('Layout', function(){
+  var id = 0;
   var title = '';
   var description = '';
   return {
+    id: function() { return id; },
+    setId: function(newId) { id = newId; },
     title: function() { return title; },
     setTitle: function(newTitle) { title = newTitle; },
     description: function() { return description; },

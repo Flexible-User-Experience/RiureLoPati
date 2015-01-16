@@ -41,6 +41,7 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
           if ($scope.pages[index].id === parseInt($routeParams.pageId, 10)) {
             found = true;
             $scope.currentPage = $scope.pages[index];
+            Layout.setId($scope.currentPage.id);
             Layout.setTitle($scope.currentPage.metatitle);
             Layout.setDescription($scope.currentPage.metadescription);
           }
