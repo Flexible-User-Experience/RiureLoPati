@@ -267,7 +267,7 @@ var pagesca = [
             },
             {
                 "id": 13,
-                "title": "Ressemblances humaines et animales ",
+                "title": "Ressemblances humaines et animales",
                 "author": "Charles Le Brun",
                 "year": 1690,
                 "text": "És curiós que un dels artífexs del gust neoclàssic en pintura, el pintor i tractadista Charles Le Brun, fos alhora l’autor d’una de les sèries de dibuixos més inquietantment humorístiques de la història de l’art. Compendi que esgota totes les semblances fisonòmiques entre les persones i les bèsties, Ressemblances humaines et animales esdevé un homenatge a la nostra naturalesa híbrida. Deia Aristòtil que l’ésser humà és l’únic animal que riu. Podríem arrodonir la definició afegint-hi que és l’únic animal que s’avergonyeix i amaga les manifestacions de la seva pròpia animalitat. Els dibuixos de Le Brun ens inquieten perquè prenen el camí invers a les faules moralitzants, que humanitzen els animals, i ens remeten a una involució atàvica, una transformació animal explorada per la mitologia grega, en múltiples variants, des que els mariners d’Ulisses foren transformats en porcs.",
@@ -347,7 +347,7 @@ var pagesca = [
             },
             {
                 "id": 17,
-                "title": "Ministry of Silly Walks ",
+                "title": "Ministry of Silly Walks",
                 "author": "Monty Python",
                 "year": 1970,
                 "text": "Emès a la BBC de 1969 a 1977, el programa d’esquetxos Monty Python's Flying Circus revolucionà el format televisiu dels programes d’humor i esbotzà per sempre la concepció tradicional d’allò que s’entenia per “humor anglès”. El caràcter imprevisible del seu humor aconseguia una incongruència radical entre esquetxos: durant el curs d’una emissió se succeïen esquetxos irònics amb d’altres de sarcàstics, escatològics o intel•lectuals. Sovint la incongruència entre formes d’humor es donava dins un mateix esquetx. L’espectador quedava desarmat, incapaç d’anticipar el següent cop. En aquest esquetx, se’ns presenta el Ministeri de maneres absurdes de caminar. Amb referències a la gestualitat del cinema mut, l’esquetx resulta alhora absurd i finament satíric dels delirants requisits governamentals per a la concessió d’ajudes.",
@@ -427,7 +427,7 @@ var pagesca = [
             },
             {
                 "id": 21,
-                "title": "Drunken politicians ",
+                "title": "Drunken politicians",
                 "author": "Reactor2studio",
                 "year": 2013,
                 "text": "Deia Groucho Marx que la política és l’art de buscar problemes, trobar-los, fer un diagnòstic fals i aplicar els remeis equivocats. Pura incongruència amb les nobles cantarelles del bé comú i el servei públic. Quan un polític es mostra embriac en un context carregat de solemnitat i càlcul racional, com ara un parlament, l’efecte còmic és immediat i infecciós. En un míting, però, l’efecte no és tan fort perquè són ja originàriament cerimònies que busquen l’atordiment dels sentits i l’anul•lació del raciocini, autèntiques borratxeres col•lectives.",
@@ -447,7 +447,7 @@ var pagesca = [
             },
             {
                 "id": 22,
-                "title": "A Blobs Bike Ride ",
+                "title": "A Blobs Bike Ride",
                 "author": "Jaimie Warren ",
                 "year": 2013,
                 "text": "En aquesta peça de l’artista nord-americana Jaimie Warren, una recreació de Le déjeuner sur l'herbe es converteix en una apoteosi del mal gust, en un groller pícnic on els colors pastel competeixen amb els xiscles més estridents i les cançons més insofribles per assolir la incongruència plàstica total. El resultat d’aquesta mena de wagnerianisme invers no pot ser altre que una digestió pesada. Un dels efectes humorístics més sovintejats és fer aflorar les sonoritats i olors de la nostra animalitat en un context extemporani. Així, els pets i els rots en moments inconvenients esdevenen recordatoris que ens avisen que per les nostres entranyes no hi corren només pensaments sublims. ",
@@ -465,7 +465,6 @@ var pagesca = [
                 "isinverted": false,
                 "type": "vimeo"
             },
-
         ]
     }
 ];
