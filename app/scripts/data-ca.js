@@ -368,7 +368,7 @@ var pagesca = [
             {
                 "id": 18,
                 "title": "Ludwig van Beethoven",
-                "author": "John Belushi (Saturday Night Live) ",
+                "author": "John Belushi (Saturday Night Live)",
                 "year": 1977,
                 "text": "John Belushi, còmic i membre de The Blues Brothers, marcà una fita de l’humor televisiu amb les seves aparicions al programa Saturday Night Live de la NBC entre 1975 i 1979. Els seus salvatges esquetxos en directe popularitzaren el personatge del samurai Futaba, un guerrer oriental que es presentava fora de context, exercint professions tan dispars com grum d’hotel, psiquiatra, reparador de televisors o optometrista. El consum de drogues que ell i el seu company de banda Dan Aykroyd feien als estudis de la cadena abans, durant i després del show esdevingué llegendari i acabà estroncant la seva vida als 33 anys. En aquest esquetx, s’apunta a la transformació de la personalitat mitjançant la intervenció de substàncies: un esllanguit Beethoven es converteix de sobte en Ray Charles. És una transformació amb ressonàncies del Dr. Jekyll i Mr. Hyde i de la incongruència primordial: la convivència no sempre pacífica de múltiples personalitats dins cada persona.",
                 "image": "",
@@ -448,7 +448,7 @@ var pagesca = [
             {
                 "id": 22,
                 "title": "A Blobs Bike Ride",
-                "author": "Jaimie Warren ",
+                "author": "Jaimie Warren",
                 "year": 2013,
                 "text": "En aquesta peça de l’artista nord-americana Jaimie Warren, una recreació de Le déjeuner sur l'herbe es converteix en una apoteosi del mal gust, en un groller pícnic on els colors pastel competeixen amb els xiscles més estridents i les cançons més insofribles per assolir la incongruència plàstica total. El resultat d’aquesta mena de wagnerianisme invers no pot ser altre que una digestió pesada. Un dels efectes humorístics més sovintejats és fer aflorar les sonoritats i olors de la nostra animalitat en un context extemporani. Així, els pets i els rots en moments inconvenients esdevenen recordatoris que ens avisen que per les nostres entranyes no hi corren només pensaments sublims. ",
                 "image": "",
