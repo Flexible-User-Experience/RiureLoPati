@@ -7,3 +7,4 @@ app/bower_components
 *.sublime-workspace
 Capfile
 config/*
+.idea/*

@@ -7,22 +7,12 @@ var riureLoPatiControllers = angular.module('riureLoPatiControllers', []);
 
 riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', 'Layout',
     function($scope, $http, $location, Layout) {
-        Layout.setTitle('Main page');
-        $location.path('/1');
-        /*$http.get('data/pages.json').success(function(data) {
-            $scope.pages = data;
-          });        
-        Layout.setDescription('Metadescription');*/
+        $location.path('/2/ca');
       }]);
 
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
     function($scope, $http, $location, Layout) {
-        Layout.setTitle('Main page');
-        $location.path('/1/ca');
-        /*$http.get('data/pages.json').success(function(data) {
-            $scope.pages = data;
-          });        
-        Layout.setDescription('Metadescription');*/
+        $location.path('/2/ca');
       }]);
 
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', '$sce', 'Layout',
@@ -41,7 +31,8 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
           if ($scope.pages[index].id === parseInt($routeParams.pageId, 10)) {
             found = true;
             $scope.currentPage = $scope.pages[index];
-            Layout.setTitle($scope.currentPage.metatile);
+            Layout.setId($scope.currentPage.id);
+            Layout.setTitle($scope.currentPage.metatitle);
             Layout.setDescription($scope.currentPage.metadescription);
           }
           index++;
