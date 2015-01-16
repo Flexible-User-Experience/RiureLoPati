@@ -1,16 +1,15 @@
 <div class="leftBoxes">
-    <h3 ng-if="!media.isinverted">{{ media.title }}</h3>
-    <h4 ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
-    <p ng-if="!media.isinverted" ng-bind-html="media.text"></p>
-    <img ng-src="{{ getThumbImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
-    <h3 ng-if="media.isinverted">{{ media.title }}</h3>
-    <h4 ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
-    <p ng-if="media.isinverted" ng-bind-html="media.text"></p>
-    <p ng-if="media.attachment"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">{{ media.textattachmentbutton }}</a></p>
-    <p ng-if="media.attachment2"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment2) }}" download="{{ media.attachment2 }}">{{ media.textattachmentbutton2 }}</a></p>
-    <p ng-if="media.attachment3"><a class="btn btn-primary btn-xs" ng-href="{{ getAttatchmentPath(media.attachment3) }}" download="{{ media.attachment3 }}">{{ media.textattachmentbutton3 }}</a></p>
+    <h3 data-ng-if="!media.isinverted">{{ media.title }}</h3>
+    <h4 data-ng-if="!media.isinverted">{{ media.author }}, {{ media.year }}</h4>
+    <p data-ng-if="!media.isinverted" data-ng-bind-html="media.text"></p>
+    <img data-ng-src="{{ getThumbImagePath(media.image) }}" alt="" title="" data-toggle="modal" data-target="#myModal{{ media.id }}"/>
+    <h3 data-ng-if="media.isinverted">{{ media.title }}</h3>
+    <h4 data-ng-if="media.isinverted">{{ media.author }}, {{ media.year }}</h4>
+    <p data-ng-if="media.isinverted" data-ng-bind-html="media.text"></p>
+    <p data-ng-if="media.attachment"><a class="btn btn-primary btn-xs" data-ng-href="{{ getAttatchmentPath(media.attachment) }}" download="{{ media.attachment }}">{{ media.textattachmentbutton }}</a></p>
+    <p data-ng-if="media.attachment2"><a class="btn btn-primary btn-xs" data-ng-href="{{ getAttatchmentPath(media.attachment2) }}" download="{{ media.attachment2 }}">{{ media.textattachmentbutton2 }}</a></p>
+    <p data-ng-if="media.attachment3"><a class="btn btn-primary btn-xs" data-ng-href="{{ getAttatchmentPath(media.attachment3) }}" download="{{ media.attachment3 }}">{{ media.textattachmentbutton3 }}</a></p>
 </div>
-
 <div style="z-index:10000" class="modal fade" id="myModal{{ media.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" style="width:95%">
     <div class="modal-content">
@@ -19,7 +18,7 @@
         <h4 class="modal-title" id="myModalLabel">{{ media.title }}</h4>
       </div>
       <div class="modal-body">
-        <img style="width:100%" ng-src="{{ getImagePath(media.image) }}" alt="" title=""/>
+        <img style="width:100%" data-ng-src="{{ getImagePath(media.image) }}" alt="" title=""/>
       </div>
     </div>
   </div>
