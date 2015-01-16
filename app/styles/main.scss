@@ -57,7 +57,15 @@ body {
         line-height: 40px;
         padding-bottom: 19px;
     }
-    div.lang-selector { margin-left: 40px; }
+    div.lang-selector {
+        margin-left: 40px;
+        a.menubar {
+            font-weight: bold;
+            color: #000;
+            margin: 0 5px;
+            &.first { margin-left: 10px; }
+        }
+    }
 }
 
 #strobelogo {
