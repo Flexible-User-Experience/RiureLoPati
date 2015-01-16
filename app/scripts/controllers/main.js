@@ -8,7 +8,7 @@ var riureLoPatiControllers = angular.module('riureLoPatiControllers', []);
 riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', 'Layout',
     function($scope, $http, $location, Layout) {
         Layout.setTitle('Main page');
-        $location.path('/1');
+        $location.path('/2');
         /*$http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });        
@@ -18,7 +18,7 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', '
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
     function($scope, $http, $location, Layout) {
         Layout.setTitle('Main page');
-        $location.path('/1/ca');
+        $location.path('/2/ca');
         /*$http.get('data/pages.json').success(function(data) {
             $scope.pages = data;
           });        
@@ -41,7 +41,7 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
           if ($scope.pages[index].id === parseInt($routeParams.pageId, 10)) {
             found = true;
             $scope.currentPage = $scope.pages[index];
-            Layout.setTitle($scope.currentPage.metatile);
+            Layout.setTitle($scope.currentPage.metatitle);
             Layout.setDescription($scope.currentPage.metadescription);
           }
           index++;
