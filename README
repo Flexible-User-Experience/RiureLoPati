@@ -1,0 +1,3 @@
+Use grunt build task
+Then use grunt sftp task to deploy
+* secret.json required

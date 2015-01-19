@@ -7,3 +7,7 @@ app/bower_components
 *.sublime-workspace
 Capfile
 config/*
+.idea/*
+secret.json
+secret.dev.json
+/dist/*
