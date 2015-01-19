@@ -1,10 +1,11 @@
 {
   "name": "riurelopati",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
+    "grunt-bower-install": "~1.0.0",
     "grunt-concurrent": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-coffee": "~0.7.0",
@@ -40,6 +41,7 @@
     "karma-phantomjs-launcher": "~0.1.1",
     "karma": "~0.10.6",
     "karma-ng-html2js-preprocessor": "~0.1.0",
+    "grunt-deploy": "~0.1.7",
     "grunt-ssh": "~0.11.1"
   },
   "engines": {

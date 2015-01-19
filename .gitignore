@@ -8,3 +8,5 @@ app/bower_components
 Capfile
 config/*
 .idea/*
+secret.json
+secret.dev.json
