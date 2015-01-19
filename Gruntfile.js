@@ -30,6 +30,7 @@ module.exports = function (grunt) {
                     username: '<%= secret.username %>',
                     password: '<%= secret.password %>',
                     srcBasePath: 'dist/',
+                    exclusions: ['dist/angular-animate/*', 'dist/angular-cookies/*', 'dist/angular-mocks/*', 'dist/angular-resource/*', 'dist/angular-route/*', 'dist/angular-sanitize/*', 'dist/angular-scenario/*', 'dist/es5-shim/*', 'dist/jquery/*', 'dist/json3/*', 'dist/sass-bootstrap/*'],
                     createDirectories: true,
                     showProgress: true
                 }
@@ -198,7 +199,6 @@ module.exports = function (grunt) {
                     src: [
                         '<%= yeoman.dist %>/scripts/{,*/}*.js',
                         '<%= yeoman.dist %>/styles/{,*/}*.css',
-                        '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
                         '<%= yeoman.dist %>/styles/fonts/*'
                     ]
                 }
