@@ -10,3 +10,4 @@ config/*
 .idea/*
 secret.json
 secret.dev.json
+/dist/*
