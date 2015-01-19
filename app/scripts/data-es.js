@@ -347,7 +347,7 @@ var pageses = [
                 "location": "",
                 "year": 1919,
                 "text": "En uno de los gestos fundacionales del arte moderno, Duchamp añadió bigote y perilla a una postal de la Gioconda. Tituló la obra resultante L.H.O.O.Q., iniciales que pronunciadas en francés suenan como “elle a chaud au cul”. Uno de los adjetivos preferidos de Duchamp para descalificar a movimientos que no le gustaban era tildarlos de aburridos, adjetivo que dedicó por ejemplo al cubismo. El humor dadaísta busca la incongruencia entre el discurso solemne del arte oficial, basado en etéreas nociones de sublimidad, y los retoques burlones que desestabilizan la pieza y la llevan a un contexto ordinario. Con un sutil retoque o un simple cambio de contexto el ready-made eleva objetos cotidianos a la categoría de arte. En el caso de esta pieza, las infinitas reproducciones mecánicas en forma de postal se habían encargado de degradar la imagen de la Gioconda hasta convertirla en ordinaria, familiar, demasiado “aburrida”.",
-                "image": "16.png",
+                "image": "16.jpg",
                 "youtube": "",
                 "vimeo": "",
                 "attachment": "",
