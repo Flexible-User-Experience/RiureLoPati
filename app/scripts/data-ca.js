@@ -259,9 +259,9 @@ var pagesca = [
             {
                 "id": 12,
                 "title": "Voeux du paon",
-                "author": "Anònim, ca.",
+                "author": "Anònim",
                 "location": "Pierpont Morgan Library",
-                "year": 1350,
+                "year": "ca. 1350",
                 "text": "L’edat mitjana ha estat sovint presentada com una època on l’obscurantisme feudal i religiós imposava un rictus seriós a totes les manifestacions culturals. Tanmateix, en els marges dels manuscrits i en els capitells de les catedrals es detectable una predilecció molt acusada per la riallada subversiva, per la confrontació i confusió de discursos que pren cos en forma de gàrgoles i quimeres impossibles. La il·luminació dels manuscrits, encarregada habitualment a una persona diferent de l’escriba que fixava el text, era un terreny abonat per a l’esclat incontinent d’aquest gust per la riota: el marge esdevé comentari desestabilitzador de la seriositat oficial, la nota deixa de ser acotació per esdevenir sovint un punxó que obre una via d’aigua per on s’escola la pompositat dels grans discursos monolítics. En aquesta il·lustració al marge d’un romanç que conegué una gran difusió, un home nu es burla de la galant escena cortesana. Més avall, una quimera serpentina tocada amb un mitra fa befa de la religió. Els dos grans discursos idealistes medievals, el cavalleresc i el religiós, són atacats en una mateixa glossa marginal des de la carnalitat i l’animalitat més grollera.",
                 "image": "12.jpg",
                 "youtube": "",

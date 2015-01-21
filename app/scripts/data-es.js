@@ -259,9 +259,9 @@ var pageses = [
             {
                 "id": 12,
                 "title": "Voeux du paon",
-                "author": "Anónimo, ca.",
+                "author": "Anónimo",
                 "location": "Pierpont Morgan Library",
-                "year": 1350,
+                "year":  "ca. 1350",
                 "text": "La Edad Media a menudo se ha presentado como una época en la cual el oscurantismo feudal y religioso imponía un rictus serio a todas las manifestaciones culturales. Sin embargo, en los márgenes de los manuscritos y en los capiteles de las catedrales es detectable una marcada predilección por la risotada subversiva, por la confrontación y confusión de discursos, que se plasmó en forma de gárgolas y quimeras imposibles. La iluminación de los manuscritos, tarea encargada habitualmente a una persona distinta del escriba que fijaba del texto, fue un terreno propicio para el estallido incontinente de este gusto por la risotada: el margen se convirtió en comentario desestabilizador de la seriedad oficial, la nota dejó de ser acotación para convertir-se en un estilete que abría una vía de agua por donde se vaciaba la pomposidad de los grandes discursos monolíticos. En esta ilustración al margen de un romance que conoció una gran difusión, un hombre desnudo se burla de la galante escena cortesana. Más abajo, una quimera serpentina tocada con una mitra ridiculiza la religión. Los dos grandes discursos idealistas medievales, el caballeresco y el religioso, son atacados en una misma glosa marginal desde la carnalidad y animalidad más grosera.",
                 "image": "12.jpg",
                 "youtube": "",
