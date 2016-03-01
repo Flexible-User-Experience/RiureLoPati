@@ -34,6 +34,7 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
                 Layout.setId($scope.currentPage.id);
                 Layout.setTitle($scope.currentPage.metatitle);
                 Layout.setDescription($scope.currentPage.metadescription);
+                Layout.setLocale($routeParams.locale);
             }
             index++;
         }

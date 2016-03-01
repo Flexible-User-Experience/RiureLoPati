@@ -2,12 +2,12 @@
   <div class="firsLeftBox">
     <div class="summaryPanel fader" data-ng-show="textPanelCollapsed">
       <p data-ng-bind-html="currentPage.summary"></p>
-      <p><a class="btn btn-primary btn-xs" data-ng-click="textPanelCollapsed=!textPanelCollapsed">llegir més</a></p>
+      <p><a class="btn btn-primary btn-xs" data-ng-click="textPanelCollapsed=!textPanelCollapsed"><span data-ng-if="Layout.locale() == 'ca'">llegir més</span><span data-ng-if="Layout.locale() == 'es'">leer más</span></a></p>
       <span onclick="moveMe()" class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
     <div class="textPanel fader" data-ng-show="!textPanelCollapsed">
       <p data-ng-bind-html="currentPage.text"></p>
-      <p><a class="btn btn-primary btn-xs" data-ng-click="textPanelCollapsed=!textPanelCollapsed">llegir menys</a></p>
+      <p><a class="btn btn-primary btn-xs" data-ng-click="textPanelCollapsed=!textPanelCollapsed"><span data-ng-if="Layout.locale() == 'ca'">llegir menys</span><span data-ng-if="Layout.locale() == 'es'">leer menos</span></a></p>
       <span onclick="moveMe()" class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
     <div class="footer">

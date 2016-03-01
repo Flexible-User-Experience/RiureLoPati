@@ -36,6 +36,7 @@ riureLoPatiApp.factory('Layout', function () {
     var id = 0;
     var title = '';
     var description = '';
+    var locale = '';
     return {
         id: function () {
             return id;
@@ -54,6 +55,12 @@ riureLoPatiApp.factory('Layout', function () {
         },
         setDescription: function (newDescription) {
             description = newDescription;
+        },
+        locale: function () {
+            return locale;
+        },
+        setLocale: function (newLocale) {
+            locale = newLocale;
         }
     };
 });
