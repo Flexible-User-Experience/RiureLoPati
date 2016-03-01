@@ -7,12 +7,12 @@ var riureLoPatiControllers = angular.module('riureLoPatiControllers', []);
 
 riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
-        $location.path('/2/ca');
+        $location.path('/3/ca');
     }]);
 
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
-        $location.path('/2/ca');
+        $location.path('/3/ca');
     }]);
 
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', '$sce', 'Layout',

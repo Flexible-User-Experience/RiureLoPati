@@ -488,5 +488,18 @@ var pageses = [
                 "type": "vimeo"
             }
         ]
+    },
+    {
+        "id": 3,
+        "code": "001-00C",
+        "title": "Page title 3",
+        "subtitle": "Page subtitle 3",
+        "metatitle": "Riure #3 · Lo Pati",
+        "metadescription": "",
+        "position": 3,
+        "active": true,
+        "text": "<h3>MATAR EL CENSOR</h3> Hi ha dos tipus de censors: un censor intern format per pors atàviques i tabús íntims, i un censor extern, suma de totes les convencions implícites en les relacions socials i la moral establerta. Segons Freud, l'humor té el seu origen en una tendència agressiva contra aquests dos censors que estan connectats i es realimenten. L'energia psíquica que abans es necessitava per reprimir l'agressivitat s'allibera en el moment de la riallada. L'alliberament de la repressió i la momentània llibertat de pensament proporcionen la descàrrega plaent que produeix l'humor. En la proliferació d'acudits cínics sobre el matrimoni i la religió, Freud detectà una agressivitat encoberta contra les exigències de la moral social. L'humor negre, amb la seva fixació contra tot allò massa sacralitzat, esdevé així el contrari del tacte i la correcció política....",
+        "summary": "<h3>MATAR EL CENSOR</h3> Hi ha dos tipus de censors: un censor intern format per pors atàviques i tabús íntims, i un censor extern, suma de totes les convencions implícites en les relacions socials i la moral establerta. Segons Freud, l'humor té el seu origen en una tendència agressiva contra aquests dos censors que estan connectats i es realimenten. L'energia psíquica que abans es necessitava per reprimir l'agressivitat s'allibera en el moment de la riallada. L'alliberament de la repressió i la momentània llibertat de pensament proporcionen la descàrrega plaent que produeix l'humor. En la proliferació d'acudits cínics sobre el matrimoni i la religió, Freud detectà una agressivitat encoberta contra les exigències de la moral social. L'humor negre, amb la seva fixació contra tot allò massa sacralitzat, esdevé així el contrari del tacte i la correcció política.",
+        "medias": []
     }
 ];
