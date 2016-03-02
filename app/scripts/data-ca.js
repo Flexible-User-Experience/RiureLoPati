@@ -612,7 +612,7 @@ var pagesca = [
                 "author": "Pedro Almodóvar",
                 "location": "",
                 "year": 1983,
-                "text": "Encaixonada entre <em>Laberinto de pasiones</em> i <em>¿Qué he hecho yo para merecer esto?</em>, aquesta pel·lícula del director manxec passà força desapercebuda. De fet, és un dels moments àlgids de l'humor almodovarià: un ferotge i irreverent atac frontal a la doble moral de l'Església. La pel·lícula tracta del convent de les \"Redentoras humilladas\", unes monges que intenten redimir noies de vida dissoluta mentre elles mateixes consumeixen drogues al·lucinògenes i estableixen relacions lèsbiques. Resulta inquietant preguntar-se si aquest pel·lícula podria estrenar-se en l'Espanya d'avui, sobretot arran de la inclusió en el Codi Penal de 1995 de l'article 525 (delicte d'ofensa contra el sentiment religiós). Fou l'article que s'usà per denunciar Javier Krahe pel curt <em>La Cristofagia</em> o <em>cómo cocinar a un Cristo</em> (1977) després de la seva emissió per televisió el 2004. El procés judicial s'allargà 8 anys, amb fiances properes als 200.000 euros, fins a la seva absolució el 2012.",
+                "text": "Encaixonada entre <em>Laberinto de pasiones</em> i <em>¿Qué he hecho yo para merecer esto?</em>, aquesta pel·lícula del director manxec passà força desapercebuda. De fet, és un dels moments àlgids de l'humor almodovarià: un ferotge i irreverent atac frontal a la doble moral de l'Església. La pel·lícula tracta del convent de les \"Redentoras humilladas\", unes monges que intenten redimir noies de vida dissoluta mentre elles mateixes consumeixen drogues al·lucinògenes i estableixen relacions lèsbiques. Resulta inquietant preguntar-se si aquest pel·lícula podria estrenar-se en l'Espanya d'avui, sobretot arran de la inclusió en el Codi Penal de 1995 de l'article 525 (delicte d'ofensa contra el sentiment religiós). Fou l'article que s'usà per denunciar Javier Krahe pel curt <em>La Cristofagia o cómo cocinar a un Cristo</em> (1977) després de la seva emissió per televisió el 2004. El procés judicial s'allargà 8 anys, amb fiances properes als 200.000 euros, fins a la seva absolució el 2012.",
                 "image": "",
                 "youtube": "https://www.youtube.com/watch?v=6C-nohlmLUQ",
                 "vimeo": "",
@@ -711,7 +711,6 @@ var pagesca = [
                 "isinverted": true,
                 "type": "image"
             }
-
         ]
     }
 ];
