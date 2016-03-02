@@ -7,12 +7,12 @@ var riureLoPatiControllers = angular.module('riureLoPatiControllers', []);
 
 riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
-        $location.path('/2/ca');
+        $location.path('/3/ca');
     }]);
 
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
-        $location.path('/2/ca');
+        $location.path('/3/ca');
     }]);
 
 riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeParams', '$interval', '$sce', 'Layout',
@@ -34,6 +34,7 @@ riureLoPatiControllers.controller('PageDetailCtrl', ['$scope', '$http', '$routeP
                 Layout.setId($scope.currentPage.id);
                 Layout.setTitle($scope.currentPage.metatitle);
                 Layout.setDescription($scope.currentPage.metadescription);
+                Layout.setLocale($routeParams.locale);
             }
             index++;
         }
