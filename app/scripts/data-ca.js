@@ -551,7 +551,7 @@ var pagesca = [
                 "year": "1950-1966",
                 "text": "L’anomenat “Charlie Parker de l’humor” recorria la geografia americana oferint uns monòlegs erràtics, improvisats i contestataris que traslladaven en paraules l’esperit lliure del bebop. Sovint recollit en vinil amb un acompanyament de jazz experimental, el fraseig rapsòdic dels seus monòlegs es construeix a partir del reciclatge de fragments, la interacció amb el públic, la imitació d’accents, l’autocitació i l’autodistorsió en un contrastat molt marcat amb els monologuistes de guió que tant proliferen avui. Detingut per les autoritats nord-americanes en nombroses ocasions sota l’acusació d’obscenitat, també aconseguí que li prohibissin l’entrada per sempre a Anglaterra de resultes d'una sola actuació. Les paraules i temàtiques que tenia prohibit dir en públic actuen en els seus monòlegs com un nucli atractor: les va circumnavegant fins que no es pot estar de capbussar-s’hi de ple.",
                 "image": "",
-                "youtube": "http://www.youtube.com/embed/zHaWQy7iEX8?wmode=transparent",
+                "youtube": "http://www.youtube.com/embed/zHaWQy7iEX8?wmode=transparent&cc_lang_pref=es&cc_load_policy=1",
                 "vimeo": "",
                 "attachment": "",
                 "attachment2": "",
