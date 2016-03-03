@@ -19,6 +19,10 @@ riureLoPatiApp.config(['$routeProvider',
                 templateUrl: 'views/page-detail.html',
                 controller: 'MainCtrl'
             })
+            .when('/info', {
+                templateUrl: 'views/page-info.html',
+                controller: 'PageInfoCtrl'
+            })
             .when('/:pageId', {
                 templateUrl: 'views/page-detail.html',
                 controller: 'DefaultPageDetailCtrl'
