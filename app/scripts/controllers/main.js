@@ -12,6 +12,7 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', '
 
 riureLoPatiControllers.controller('PageInfoCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
+        Layout.setId(0);
     }]);
 
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
