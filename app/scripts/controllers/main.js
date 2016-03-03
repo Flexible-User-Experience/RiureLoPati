@@ -10,6 +10,11 @@ riureLoPatiControllers.controller('MainCtrl', ['$scope', '$http', '$location', '
         $location.path('/3/ca');
     }]);
 
+riureLoPatiControllers.controller('PageInfoCtrl', ['$scope', '$http', '$location', 'Layout',
+    function ($scope, $http, $location, Layout) {
+        Layout.setId('info');
+    }]);
+
 riureLoPatiControllers.controller('DefaultPageDetailCtrl', ['$scope', '$http', '$location', 'Layout',
     function ($scope, $http, $location, Layout) {
         $location.path('/3/ca');
