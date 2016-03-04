@@ -10,12 +10,6 @@
       <p><a class="btn btn-primary btn-xs" data-ng-click="textPanelCollapsed=!textPanelCollapsed"><span data-ng-if="Layout.locale() == 'ca'">llegir menys</span><span data-ng-if="Layout.locale() == 'es'">leer menos</span></a></p>
       <span onclick="moveMe()" class="glyphicon glyphicon-circle-arrow-right"></span>
     </div>
-    <!--<div class="footer">-->
-      <!--<h5>Organitza_</h5>-->
-      <!--<a target="_blank" href="http://www.lopati.cat/"><img data-ng-src="images/layout/logo-lopati.png" alt="" title="" style="width:100px;margin-bottom:40px"/></a><br/>-->
-      <!--<h5>Amb el suport de_</h5>-->
-      <!--<img data-ng-src="images/layout/logos-peu-compact.png" alt="" title=""/>-->
-    <!--</div>-->
   </div>
   <div data-ng-repeat="media in currentPage.medias">
     <my-image data-ng-if="media.type == 'image'"></my-image>
